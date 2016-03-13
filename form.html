@@ -8,9 +8,41 @@
 	<fieldset>
 		<legend>Your Details:</legend>
 		<label>Name:<br />
-		<input type="text" name="name" /></label><br />
-		<label>Email:</br />
-		<input type="text" name="email" /><label><br />
+		<input type="text" name="name" size="50" /></label><br />
+		<label>Email:<br />
+		<input type="text" name="email" size="50" /><label><br />
 	</fieldset>
+	<br />
+	<fieldset>
+		<legend>Your Review:</legend>
+		<form action="http://www.example.com/source.php">
+			<p>How did you hear about us?
+			<select name="source">
+				<option value="google">Google</option>
+				<option value="friend">Friend</option>
+				<option value="ad">Ad</option>
+				<option value="other">Other</option></p>
+			</select>
+		</form>
+		<form action="http://www.example.com/recommend.php">
+			<p>Would you visit us again?
+				<br />
+				<input type="radio" name="recommend" value="yes" checked="checked" />Yes
+				<input type="radio" name="recommend" value="no" />No
+				<input type="radio" name="recommend" value="maybe" />Maybe
+			</p>
+		</form>	
+		<form action="http://www.example.com/comments.php">
+			<p>Comments:</p>
+			<textarea name="comments" cols="50" rows="4">Enter your comments...</textarea>
+		</form>	
+		<form action="http://www.example.com/subscribe.php">
+			<input type="checkbox" name="subscribe" value="yes" checked="checked" />Sign me up for email updates
+			</p>
+		</form>
+		<form action="http://www.example.com/submit.php">
+			<input type="submit" name="review" value="Submit Review" />
+		</form>			
+	</fieldset>		
 </body>
 </html>
