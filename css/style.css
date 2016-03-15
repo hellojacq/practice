@@ -1,0 +1,15 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-family: Georgia, serif;
+	color: steelblue;
+}
+
+.tagline {
+	font-variant: small-caps;
+	color: steelblue;
+	font-size: 1em;
+
+}
