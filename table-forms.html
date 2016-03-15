@@ -48,28 +48,32 @@
 		<form action="http://example.com/registration.php" method="get">
 			<fieldset>
 				<legend>Register your interest</legend>
-				<div>
-					<label>Your name:
+				<div class="input-group">
+					<label for="name" class="title">Your name:
 					<input type="text" id="name" name="name" size="30" max-length-"30" /></label><br />
 				</div>
-				<div>	
-					<label>Your email:
-					<input type="text" id="name" name="email" size="30" max-length-"30" /></label><br />
+				<div class="input-group">	
+					<label for="email" class="title">Your email:
+					<input type="text" id="email" name="email" size="30" max-length-"30" /></label><br />
 				</div>	
-				<div>	
-					<span class="centers">Your closest center:</span>
+				<div class="input-group">	
+					<span class="title">Your closest center:</span>
 					<select name="centers">
 						<option value="new-york">New York</option>
 						<option value="chicago">Chicago</option>
 						<option value="san-francisco">San Francisco</option>
 					</select>
-				<div>
-					<span class="member">Are you a member:</span>
-					<input type="radio" name="membership" value="true" checked="checked" />Yes
-					<input type="radio" name="membership" value="false" />No
+				<div class="input-group">
+					<span class="title">Are you a member?</span>
+					<div class="radio-buttons">
+						<input type="radio" name="membership" value="true" checked="checked" />Yes
+						<input type="radio" name="membership" value="false" />No
+					</div>	
 				</div>
 			</fieldset>
-			<input type="submit" name="register" value="register" />	
+			<div class="button">
+				<input type="submit" name="register" value="register" />	
+			</div>	
 		</form>	
 	</body>
 <html>	

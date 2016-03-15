@@ -63,11 +63,34 @@ th.right-header {
 }
 
 fieldset {
-	width: 800px;
+	width: 400px;
 	border: 1px solid lightgray;
 	padding: 20px;
 }
 
-label {
+.input-group {
+	width: 350px;
+	margin-top: 10px;
+}
+
+.title {
+	text-align: right;
+}
+
+input {
+	float: right;
+}
+
+select {
+	float: right;
+}
+
+.radio-buttons {
+	float: right;
+	display: inline-flex;
+}
+
+.button {
+	float: left;
 	margin-top: 10px;
 }
