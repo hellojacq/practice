@@ -1,6 +1,8 @@
 body {
 	font-family: Helvetica, Verdana, sans-serif;
-	color: #212121;
+	font-size: 90%;
+	color: #666;
+	background-color: #f8f8f8;
 }
 
 ul {
@@ -8,11 +10,7 @@ ul {
 }
 
 li {
-	margin: 5px;
-}
-
-legend {
-	font-style: italic;
+	line-height: 1.6em;
 }
 
 p {
@@ -26,6 +24,7 @@ table {
 
 th, td {
 	padding: 5px 0px 5px 5px;
+	text-align: left;
 }
 
 th {
@@ -36,7 +35,10 @@ th {
 	border-bottom: 3px solid darkblue;
 	text-align: center;
 	padding: 10px 0px 10px 0px;
-	border-top-color: white;
+}
+
+tr.even td, tr.even th {
+	background-color: #e8eff8;
 }
 
 .event {
@@ -50,47 +52,65 @@ td {
 	padding-left: 10px;
 }
 
-th.left-header {
+th:first-child {
 	border-top-left-radius: 10px;
 	border-left-color: white;
 	border-top-color: white;
 }
 
-th.right-header {
+th:last-child {
 	border-top-right-radius: 10px;
 	border-right-color: white;
 	border-top-color: white;
 }
 
 fieldset {
-	width: 400px;
-	border: 1px solid lightgray;
-	padding: 20px;
+	width: 310px;
+	margin-top: 20px;
+	border: 1px solid #d6d6d6;
+	background-color: #FFFFFF;
+	line-height: 1.6em;
 }
 
-.input-group {
-	width: 350px;
+legend {
+	font-style: italic;
+	color: #666666;
+}
+
+input[type=text] {
+	width: 120px;
+	border: 1px solid #d6d6d6;
+	padding: 2px;
+	outline: none;
+}
+
+input[type="text"]:focus, input[type=text]:hover {
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+}
+
+input[type="submit"] {
+	border: 1px solid #006633;
+	background-color: #009966;
+	color: #FFFFFF;
+	padding: 10px 50px;
 	margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+	border: 1px solid #006633;
+	background-color: #00CC33;
+	color: #FFFFFF;
+	cursor: pointer;
 }
 
 .title {
-	text-align: right;
-}
-
-input {
-	float: right;
-}
-
-select {
-	float: right;
-}
-
-.radio-buttons {
-	float: right;
-	display: inline-flex;
-}
-
-.button {
 	float: left;
-	margin-top: 10px;
+	width: 160px;
+	clear: left;
+}
+
+.submit {
+	width: 310px;
+	text-align: right;
 }

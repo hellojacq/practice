@@ -14,11 +14,11 @@
 			<li>Found Poems and Outsider Poetry</li>
 		</ul>
 		<table>
-			<tr>
-				<th class="left-header"></th>
-				<th scope="col">New York</th>
-				<th scope="col">Chicago</th>
-				<th class="right-header" scope="col">San Francisco</th>
+			<tr class="head">
+				<th></th>
+				<th>New York</th>
+				<th>Chicago</th>
+				<th>San Francisco</th>
 			</tr>
 			<tr>
 				<td class="event">A Poetic Perspective</td>
@@ -26,7 +26,7 @@
 				<td>Sat, 3 Mar 2012<br />11am - 2pm</td>
 				<td>Sat, 17 Mar 2012<br />11am - 2pm</td>
 			</tr>
-			<tr>
+			<tr class="even">
 				<td class="event">Walt Whitman at War</td>
 				<td>Sat, 7 Apr 2012<br />11am - 1pm</td>
 				<td>Sat, 5 May 2012<br />11am - 1pm</td>
@@ -38,7 +38,7 @@
 				<td>Sat, 7 Jul 2012<br />11am - 2pm</td>
 				<td>Sat, 21 Jul 2012<br />11am - 2pm</td>
 			</tr>
-			<tr>
+			<tr class="even">
 				<td class="event">Natural Death: An Exploration</td>
 				<td>Sat, 4 Aug 2012<br />11am - 4pm</td>
 				<td>Sat, 8 Sep 2012<br />11am - 4pm</td>
@@ -48,32 +48,21 @@
 		<form action="http://example.com/registration.php" method="get">
 			<fieldset>
 				<legend>Register your interest</legend>
-				<div class="input-group">
-					<label for="name" class="title">Your name:
-					<input type="text" id="name" name="name" size="30" max-length-"30" /></label><br />
-				</div>
-				<div class="input-group">	
-					<label for="email" class="title">Your email:
-					<input type="text" id="email" name="email" size="30" max-length-"30" /></label><br />
-				</div>	
-				<div class="input-group">	
-					<span class="title">Your closest center:</span>
-					<select name="centers">
+				<p><label for="name" class="title">Your name:</label>
+					<input type="text" id="name" name="name" size="30" max-length-"30" /><br />
+					<label for="email" class="title">Your email:</label>
+					<input type="text" id="email" name="email" size="30" max-length-"30" /><br /></a>
+				<p><label for="location" class="title">Your closest center:</label>
+					<select name="locations" id="locations">
 						<option value="new-york">New York</option>
 						<option value="chicago">Chicago</option>
 						<option value="san-francisco">San Francisco</option>
-					</select>
-				<div class="input-group">
-					<span class="title">Are you a member?</span>
-					<div class="radio-buttons">
-						<input type="radio" name="membership" value="true" checked="checked" />Yes
-						<input type="radio" name="membership" value="false" />No
-					</div>	
-				</div>
+					</select></p>
+				<span class="title">Are you a member?</span>
+				<label><input type="radio" name="membership" value="yes" checked="checked" />Yes</label>
+				<label><input type="radio" name="membership" value="false" />No</label>	
 			</fieldset>
-			<div class="button">
-				<input type="submit" name="register" value="register" />	
-			</div>	
+			<div class="submit"><input type="submit" name="Register" value="register" /></div>	
 		</form>	
 	</body>
 <html>	
