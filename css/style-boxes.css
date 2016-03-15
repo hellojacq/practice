@@ -1,6 +1,6 @@
 body {
 	font-family: courier, serif;
-	width: 800px;
+	width: 700px;
 	margin: 10px auto 10px auto;
 	padding: 0px 100px 0px 100px;
 	border-color: black 3px;
@@ -9,6 +9,7 @@ body {
 
 h1 {
 	text-align: center;
+	line-height: 1em;
 	text-transform: uppercase;
 	font-weight: lighter;
 }
@@ -20,6 +21,9 @@ span {
 
 ul {
 	text-align: center;
+	border-top: black solid 2px;
+	border-bottom: black solid 2px;
+	padding: 10px;
 }
 
 li {
