@@ -1,0 +1,73 @@
+body {
+	font-family: Helvetica, Verdana, sans-serif;
+	color: #212121;
+}
+
+ul {
+	list-style-image: url("../images/plus.png");
+}
+
+li {
+	margin: 5px;
+}
+
+legend {
+	font-style: italic;
+}
+
+p {
+	font-size: 14px;
+}
+
+table {
+	width: 800px;
+	margin: 20px 0 20px 0;
+}
+
+th, td {
+	padding: 5px 0px 5px 5px;
+}
+
+th {
+	background-color: skyblue;
+	color: white;
+	text-shadow: 0px 1px 2px #212121;
+	letter-spacing: 1px;
+	border-bottom: 3px solid darkblue;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	border-top-color: white;
+}
+
+.event {
+	font-weight: bold;
+	width: 300px;
+}
+
+td {
+	background-color: aliceblue;
+	font-size: 0.90em;
+	padding-left: 10px;
+}
+
+th.left-header {
+	border-top-left-radius: 10px;
+	border-left-color: white;
+	border-top-color: white;
+}
+
+th.right-header {
+	border-top-right-radius: 10px;
+	border-right-color: white;
+	border-top-color: white;
+}
+
+fieldset {
+	width: 800px;
+	border: 1px solid lightgray;
+	padding: 20px;
+}
+
+label {
+	margin-top: 10px;
+}
