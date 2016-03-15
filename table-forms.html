@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Styled Lists, Tables and Forms</title>
+	</head>
+	<body>
+		<h1>Poetry Workshops</h1>
+		<p>We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+		<p>Please note that the following events are free to members:</p>
+		<ul>
+			<li>A Poetic Perspective</li>
+			<li>Walt Whitman at War</li>
+			<li>Found Poems and Outsider Poetry</li>
+		</ul>
+		<table>
+			<tr>
+				<th></th>
+				<th scope="col">New York</th>
+				<th scope="col">Chicago</th>
+				<th scope="col">San Francisco</th>
+			</tr>
+			<tr>
+				<th scope="row">A Poetic Perspective</th>
+				<td>Sat, 4 Feb 2012 11am-2pm</td>
+				<td>Sat, 3 Mar 2012 11am-2pm</td>
+				<td>Sat, 17 Mar 2012 11am-2pm</td>
+			</tr>
+			<tr>
+				<th scope="row">Walt Whitman at War</th>
+				<td>Sat, 7 Apr 2012 11am-1pm</td>
+				<td>Sat, 5 May 2012 11am-1pm</td>
+				<td>Sat, 19 May 2012 11am-1pm</td>
+			</tr>
+			<tr>
+				<th scope="row">Found Poems &amp; Outsider Poetry</th>
+				<td>Sat, 9 Jun 2012 11am-2pm</td>
+				<td>Sat, 7 Jul 2012 11am-2pm</td>
+				<td>Sat, 21 Jul 2012 11am-2pm</td>
+			</tr>
+			<tr>
+				<th scope="row">Natural Death: An Exploration</th>
+				<td>Sat, 4 Aug 2012 11am-4pm</td>
+				<td>Sat, 8 Sep 2012 11am-4pm</td>
+				<td>Sat, 15 Sep 2012 11am-4pm</td>
+			</tr>
+		</table>
+		<form action="http://example.com/registration.php" method="get">
+			<fieldset>
+				<legend>Register your interest</legend>
+				<label>Your name:
+				<input type="text" name="name" size="30" max-length-"30" /></label><br />
+				<label>Your email:
+				<input type="text" name="email" size="30" max-length-"30" /></label><br />	
+				<p>Your closest center:
+				<select name="centers">
+					<option value="new-york">New York</option>
+					<option value="chicago">Chicago</option>
+					<option value="san-francisco">San Francisco</option>
+				</select>
+				<p>Are you a member:
+				<input type="radio" name="yes" value="true" checked="checked" />Yes
+				<input type="radio" name="no" value="false" />No
+				</p>
+			</fieldset>
+			<input type="submit" name="Register" value="register" />	
+		</form>	
+	</body>
+<html>	
+
