@@ -1,0 +1,47 @@
+body {
+	font-family: courier, serif;
+	margin: 0 200px 0 200px;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+span {
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: inline;
+	margin: 0px 20px 0px 20px;
+	text-transform: uppercase;
+}
+
+li > a {
+	text-decoration: none;
+}
+
+li > a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.hero-images {
+	text-align: center;
+	display: inline-block;
+}
+
+.hero-images > img {
+	height: 200px;
+}
+
+p {
+	text-align: center;
+}
