@@ -2,14 +2,36 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-h1 {
-	font-family: Georgia, serif;
+h1, h2 {
+	font-family: Times, serif;
 	color: steelblue;
+}
+
+h1 {
+	text-shadow: 2px 2px 2px darkgray;
+}
+
+a {
+	color: steelblue;
+	text-decoration: none;
+	font-weight: lighter;
 }
 
 .tagline {
 	font-variant: small-caps;
 	color: steelblue;
 	font-size: 1em;
+}
 
+.history {
+	font-weight: lighter;
+}
+
+.intro {
+	font-weight: bold;	
+}
+
+.author {
+	text-align: right;
+	font-style: italic;
 }
