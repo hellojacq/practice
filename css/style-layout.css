@@ -1,0 +1,100 @@
+body {
+	font-family: 'Georgia', Times, serif;
+	background-image: url(../images/layout/bg.jpg);
+	background-repeat: repeat;
+}
+
+#nav {
+	background-image: url(../images/layout/bg-header.jpg);
+	background-repeat: repeat;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#nav-content {
+	width: 960px;
+	color: white;
+	margin: auto;
+}
+
+#nav-bar-logo {
+	float: left;
+	padding: 10px 0 10px 0;
+}
+
+#nav-bar-links {
+	float: right;
+	padding: 10px 0 10px 0;
+}
+
+#content {
+	width: 960px;
+	margin: auto;
+}
+
+ul > li {
+	display: inline;
+}
+
+nav li a {
+	text-decoration: none;
+	color: darkseagreen;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	color: darkseagreen;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.date {
+	font-family: 'Helvetica', Times, serif;
+	color: darkseagreen;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 80%;
+}
+
+a {
+	color: darkseagreen;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+p {
+	color: white;
+	line-height: 1.5em;
+	font-weight: light;
+}
+
+#article-list {
+	display: inline-block;
+}
+
+.article-grid {
+
+}
+
+.article-1, .article-2, .article-3, .article-4 {
+	width: 220px;
+}
+
+footer {
+	font-family: 'Helvetica', Times, serif;
+	font-size: 12px;
+	float: right;
+	color: white;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: darkgray;
+}
+
+footer ul li {
+	color: darkgray;
+}

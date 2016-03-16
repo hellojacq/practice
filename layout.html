@@ -2,89 +2,110 @@
 <html>
 	<head>
 		<title>Layout Practice</title>
+		<link href="css/style-layout.css" type="text/css" rel="stylesheet" />
+		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header>
-			<nav>
-				<div id="logo">
+		<header id="nav">
+			<nav id="nav-content">
+				<div id="nav-bar-logo">
 					<img src="images/layout/logo.png" />
-				<ul>
-					<li><a href="index.html">home</a></li>
-					<li><a href="news.html">news</a></li>
-					<li><a href="archives.html">archives</a></li>
-					<li><a href="contact.html">contact</a></li>
+				</div>	
+				<ul id="nav-bar-links">
+					<li><a href="index.html">home</a></li> /
+					<li><a href="news.html">news</a></li> /
+					<li><a href="archives.html">archives</a></li> /
+					<li><a href="contact.html">contact</a></li> 
 				</ul>
 			</nav>
 		</header>
-		<div id="article-image">
-			<img src="images/layout/triangles.png" />
-		</div>	
-		<div id="article-body">
-			<h1>Fixed Gear Forever</h1>
-			<div id="date">
-				<p>16 April 2011</p>
-			</div>
-			<p>The veloheld combines minimalist design with superb quality. Devoid of excessive graphics and gear shift components, the veloheld product range delights us with its beauty and simplicity. The black and white (yin and yang?) bicycles feature a short wheelbase, a single gear and a narrow handlebar... All you need to explore the city streets.</p><p>For those who want to create their bike themselves, the veloheld frames come in three sizes and two colours and are the perfect starting point.</p>
-			<a href="index.html">Continue reading...</a>
-		</div>
-		<div id="article-list">
-			<h1>More Articles</h1>
-			<div class="article-1">
-				<div class="article-header-img">
-					<img src="images/layout/more1.jpg" />
-				</div>
-				<div class="article-title">
-					<a href="index.html">On the road: From fixed gear fanatic's point of view</a>
-				</div>
-				<div class="article-title">
-					<a href="article-html">Brand History: Pashley Cycles - hand-built in England</a>
-				</div>
-				<div class="article-title">
-					<a href="index.html">Frame Wars: Innovations in cycle manufacture and repair</a>
-				</div>
-			</div>
-			<div class="article-2">
-				<div class="article-header-img">
-					<img src="images/layout/more2.jpg" />
-				</div>	
-				<div class="article-title">
-					<a href="index.html">Touring Diary: A sketchbook in your basket</a>
-				</div>
-				<div class="article-title">
-					<a href="index.html">Top Ten Newcomers for 2012: A peek at what's to come</a>
-				</div>
-				<div class="article-title">
-					<a href="index.html">InnerTube: The best cycling videos on the web</a>
-				</div>
+		<div id="content">
+			<div id="article-image">
+				<img src="images/layout/triangles.png" />
 			</div>	
-			<div class="article-3">
-				<div class="article-header-img">
-					<img src="images/layout/more3.jpg" />
-				</div>	
-				<div class="article-title">
-					<a href="index.html">Product Review: All baskets were not created equal</a>
+			<div id="article-body">
+				<h1>Fixed Gear Forever</h1>
+				<div class="date">
+					<p>16 April 2011</p>
 				</div>
-				<div class="article-title">
-					<a href="index.html">Going Public: Out &amp; about with the founder of Public</a>
-				</div>
-				<div class="article-title">
-					<a href="index.html">Cycle Lane Defence: Know your rights</a>
-				</div>
+				<p>The veloheld combines minimalist design with superb quality. Devoid of excessive graphics and gear shift components, the veloheld product range delights us with its beauty and simplicity. The black and white (yin and yang?) bicycles feature a short wheelbase, a single gear and a narrow handlebar... All you need to explore the city streets.</p><p>For those who want to create their bike themselves, the veloheld frames come in three sizes and two colours and are the perfect starting point.</p>
+				<a href="index.html">Continue reading...</a>
 			</div>
-			<div class="article-4">
-				<div class="article-header-img">
-					<img src="images/layout/more4.jpg" />
+			<hr />
+			<div id="article-list">
+				<div class="article-section">
+					<h1>More Articles</h1>
+				</div>
+				<div class="article-grid">
+					<div class="article-1">
+						<div class="article-header-img">
+							<img src="images/layout/more1.jpg" />
+						</div>
+						<div class="article-title">
+							<a href="index.html">On the road: From fixed gear fanatic's point of view</a>
+						</div>
+						<hr />
+						<div class="article-title">
+							<a href="article-html">Brand History: Pashley Cycles - hand-built in England</a>
+						</div>
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Frame Wars: Innovations in cycle manufacture and repair</a>
+						</div>
+					</div>
+					<div class="article-2">
+						<div class="article-header-img">
+							<img src="images/layout/more2.jpg" />
+						</div>	
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Touring Diary: A sketchbook in your basket</a>
+						</div>
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Top Ten Newcomers for 2012: A peek at what's to come</a>
+						</div>
+						<hr />
+						<div class="article-title">
+							<a href="index.html">InnerTube: The best cycling videos on the web</a>
+						</div>
+					</div>	
+					<div class="article-3">
+						<div class="article-header-img">
+							<img src="images/layout/more3.jpg" />
+						</div>	
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Product Review: All baskets were not created equal</a>
+						</div>
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Going Public: Out &amp; about with the founder of Public</a>
+						</div>
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Cycle Lane Defence: Know your rights</a>
+						</div>
+					</div>
+					<div class="article-4">
+						<div class="article-header-img">
+							<img src="images/layout/more4.jpg" />
+						</div>	
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Bicycle Hall of Fame: The 1958 Schwinn Spitfire</a>
+						</div>
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Reader Survey: Share your thoughts with us!</a>
+						</div>
+						<hr />
+						<div class="article-title">
+							<a href="index.html">Chain Gang: The evolution of the humble bike chain</a>
+						</div>
+					</div>
 				</div>	
-				<div class="article-title">
-					<a href="index.html">Bicycle Hall of Fame: The 1958 Schwinn Spitfire</a>
-				</div>
-				<div class="article-title">
-					<a href="index.html">Reader Survey: Share your thoughts with us!</a>
-				</div>
-				<div class="article-title">
-					<a href="index.html">Chain Gang: The evolution of the humble bike chain</a>
-				</div>
-			</div>			
+			</div>				
 		</div>
 		<footer>
 			<ul id="footer">
