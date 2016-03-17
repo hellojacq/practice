@@ -1,0 +1,31 @@
+body {
+	width: 960px;
+}
+
+.column1of2 {
+	float: left;
+	width: 620px;
+	margin: 10px;
+}
+
+.column2of2 {
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+
+.col1of3, .col2of3, .col3of3 {
+	width: 300px;
+	float: left;
+	margin: 10px;
+}
+
+.clear {
+	clear: left;
+}
+
+.outline {
+	border: 1px solid black;
+	overflow: auto;
+	width: 100%;
+}
