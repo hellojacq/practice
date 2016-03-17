@@ -2,6 +2,7 @@ body {
 	font-family: 'Georgia', Times, serif;
 	background-image: url(../images/layout/bg.jpg);
 	background-repeat: repeat;
+	margin: 0;
 }
 
 #nav {
@@ -11,6 +12,7 @@ body {
 	width: 100%;
 	top: 0px;
 	left: 0px;
+	z-index: 10;
 }
 
 #nav-content {
@@ -21,18 +23,47 @@ body {
 
 #nav-bar-logo {
 	float: left;
-	padding: 10px 0 10px 0;
+	padding: 30px 0 30px 0;
+}
+
+#nav-bar-triangle {
+	position: absolute;
+	float: left;
 }
 
 #nav-bar-links {
 	float: right;
-	padding: 10px 0 10px 0;
+	font-size: 90%;
+	padding: 30px 0 30px 0;
 }
 
 #content {
+	position: relative;
+	margin-top: 106px;
+}
+
+#image-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#article-image {
+	position: absolute;
+	top: 143px;
+	left: 123px;
+	z-index: 5;
+}
+
+ .article_grid {
+ 	padding-bottom: 50px;
+ }
+
+#content, #article-list, .article_grid {
 	width: 960px;
 	margin: auto;
 }
+
 
 ul > li {
 	display: inline;
@@ -45,6 +76,13 @@ nav li a {
 }
 
 h1 {
+	font-family: 'Quicksand', sans-serif;
+	color: darkseagreen;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h2 {
 	font-family: 'Quicksand', sans-serif;
 	color: darkseagreen;
 	text-transform: uppercase;
@@ -69,22 +107,55 @@ p {
 	color: white;
 	line-height: 1.5em;
 	font-weight: light;
+	font-size: .80em;
+}
+
+#article {
+	position: relative;
+	padding-left: 750px;
+	padding-top: 100px;
+}
+
+#article-header {
+	position: absolute;
+	right: 80px;
+	top: 120px;
+}
+
+#article-body {
+	padding-top: 100px;
+	padding-bottom: 20px;
 }
 
 #article-list {
-	display: inline-block;
+	padding-left: 0px;
 }
 
-.article-grid {
-
+.article-title {
+	font-size: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-.article-1, .article-2, .article-3, .article-4 {
+.column1of4 {
 	width: 220px;
+	float: left;
+	padding: 0px 10px 0px 10px;
 }
 
 footer {
+	background-image: url(../images/layout/bg-header.jpg);
+	background-repeat: repeat;
+	width: 100%;
+	height: 50px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	clear: both;
+}
+
+#footer-content {
 	font-family: 'Helvetica', Times, serif;
+	width: 920px;
 	font-size: 12px;
 	float: right;
 	color: white;

@@ -8,36 +8,53 @@
 	<body>
 		<header id="nav">
 			<nav id="nav-content">
-				<div id="nav-bar-logo">
-					<img src="images/layout/logo.png" />
+				<div id="nav-images">
+					<div id="nav-bar-logo">
+						<img src="images/layout/logo.png" />
+					</div>	
+					<!--
+					<div id="nav-triangle">
+						<img src="images/layout/header-triangle.png" />
+					</div>	
+					-->
 				</div>	
-				<ul id="nav-bar-links">
-					<li><a href="index.html">home</a></li> /
-					<li><a href="news.html">news</a></li> /
-					<li><a href="archives.html">archives</a></li> /
-					<li><a href="contact.html">contact</a></li> 
-				</ul>
+				<div id="nav-bar-links">
+					<ul>
+						<li><a href="index.html">home</a></li> /
+						<li><a href="news.html">news</a></li> /
+						<li><a href="archives.html">archives</a></li> /
+						<li><a href="about.html">about</a></li> /
+						<li><a href="contact.html">contact</a></li> 
+					</ul>
+				</div>	
 			</nav>
 		</header>
 		<div id="content">
-			<div id="article-image">
-				<img src="images/layout/triangles.png" />
-			</div>	
-			<div id="article-body">
-				<h1>Fixed Gear Forever</h1>
-				<div class="date">
-					<p>16 April 2011</p>
+			<div id="article">
+				<div id="article-image">
+					<img src="images/layout/triangles.png" />
 				</div>
-				<p>The veloheld combines minimalist design with superb quality. Devoid of excessive graphics and gear shift components, the veloheld product range delights us with its beauty and simplicity. The black and white (yin and yang?) bicycles feature a short wheelbase, a single gear and a narrow handlebar... All you need to explore the city streets.</p><p>For those who want to create their bike themselves, the veloheld frames come in three sizes and two colours and are the perfect starting point.</p>
-				<a href="index.html">Continue reading...</a>
-			</div>
+				<div id="image-overlay">
+					<img src="images/layout/bg-triangle.png" />
+				</div>		
+				<div id="article-header">
+					<h1>Fixed Gear Forever</h1>
+				</div>	
+				<div id="article-body">
+					<div class="date">
+						16 April 2011
+					</div>
+					<p>The veloheld combines minimalist design with superb quality. Devoid of excessive graphics and gear shift components, the veloheld product range delights us with its beauty and simplicity. The black and white (yin and yang?) bicycles feature a short wheelbase, a single gear and a narrow handlebar... All you need to explore the city streets.</p><p>For those who want to create their bike themselves, the veloheld frames come in three sizes and two colours and are the perfect starting point.<br />
+					<a href="index.html">Continue reading...</a></p>
+				</div>	
+			</div>	
 			<hr />
 			<div id="article-list">
 				<div class="article-section">
-					<h1>More Articles</h1>
+					<h2>More Articles</h2>
 				</div>
 				<div class="article-grid">
-					<div class="article-1">
+					<div class="column1of4">
 						<div class="article-header-img">
 							<img src="images/layout/more1.jpg" />
 						</div>
@@ -53,11 +70,10 @@
 							<a href="index.html">Frame Wars: Innovations in cycle manufacture and repair</a>
 						</div>
 					</div>
-					<div class="article-2">
+					<div class="column1of4">
 						<div class="article-header-img">
 							<img src="images/layout/more2.jpg" />
 						</div>	
-						<hr />
 						<div class="article-title">
 							<a href="index.html">Touring Diary: A sketchbook in your basket</a>
 						</div>
@@ -70,11 +86,10 @@
 							<a href="index.html">InnerTube: The best cycling videos on the web</a>
 						</div>
 					</div>	
-					<div class="article-3">
+					<div class="column1of4">
 						<div class="article-header-img">
 							<img src="images/layout/more3.jpg" />
 						</div>	
-						<hr />
 						<div class="article-title">
 							<a href="index.html">Product Review: All baskets were not created equal</a>
 						</div>
@@ -87,11 +102,10 @@
 							<a href="index.html">Cycle Lane Defence: Know your rights</a>
 						</div>
 					</div>
-					<div class="article-4">
+					<div class="column1of4">
 						<div class="article-header-img">
 							<img src="images/layout/more4.jpg" />
 						</div>	
-						<hr />
 						<div class="article-title">
 							<a href="index.html">Bicycle Hall of Fame: The 1958 Schwinn Spitfire</a>
 						</div>
@@ -108,7 +122,7 @@
 			</div>				
 		</div>
 		<footer>
-			<ul id="footer">
+			<ul id="footer-content">
 				<li><a href="legal.html">Legal Information</a></li> |
 				<li><a href="privacy.html">Privacy Policy</a></li> |
 				<li>Copyright &copy; Pedal Faster 2011</li>
