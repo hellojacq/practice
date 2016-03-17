@@ -4,18 +4,19 @@ padding: 0;
 }
 
 body {
-	position: relative;
+	background-color: whitesmoke;
+	font-family: 'Roboto', sans-serif;
 }
 
 #nav-bar {
 	width: 960px;
+	margin: auto;
 }
 
 #content {
-	position: absolute;
 	width: 960px;
-	top: 80px;
 	margin: auto;
+	margin-top: 80px;
 }
 
 nav {
@@ -24,18 +25,23 @@ nav {
 	width: 100%;
 	z-index: 10;
 	margin: auto;
+	top: 0;
 }
 
-li {
+nav li {
 	display: inline;
 	float: right;
 	padding: 20px 20px;
 }
 
-li a {
+nav li a {
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.column2of2 ul {
+	list-style: none;
 }
 
 .column1of2 {
@@ -64,4 +70,6 @@ li a {
 	border: 1px solid black;
 	overflow: auto;
 	width: 100%;
+	margin-bottom: 20px;
+	background-color: white;
 }
