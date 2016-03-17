@@ -1,5 +1,41 @@
+* {
+margin: 0;
+padding: 0;
+}
+
 body {
+	position: relative;
+}
+
+#nav-bar {
 	width: 960px;
+}
+
+#content {
+	position: absolute;
+	width: 960px;
+	top: 80px;
+	margin: auto;
+}
+
+nav {
+	background-color: #212121;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	margin: auto;
+}
+
+li {
+	display: inline;
+	float: right;
+	padding: 20px 20px;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .column1of2 {
