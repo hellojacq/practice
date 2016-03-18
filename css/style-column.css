@@ -73,3 +73,11 @@ nav li a {
 	margin-bottom: 20px;
 	background-color: white;
 }
+
+footer {
+	background-color: #212121;
+	color: lightgray;
+	padding: 10px;
+	text-align: center;
+	font-size: 80%;
+}
