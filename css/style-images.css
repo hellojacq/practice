@@ -18,6 +18,8 @@ p {
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 30px;
+	margin-bottom: 100px;
+	overflow: auto;
 }
 
 figure {
@@ -38,9 +40,9 @@ figcaption {
 .col-1-of-3 {
 	background-color: #e7e3d8;
 	width: 220px;
-	height: 193px;
+	height: 195px;
 	float: left;
-	margin: 5px;
+	margin: 10px;
 	margin-bottom: 20px;
 }
 
@@ -50,4 +52,5 @@ img.medium {
 }
 
 img {
+	border: 1px solid lightgray;
 }
