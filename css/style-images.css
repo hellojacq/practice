@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../images/gallery/backdrop.gif);
+	background-repeat: repeat;
+	color: #665544;
+}
+
+p {
+	padding: 20px 0px;
+}
+
+.wrapper {
+	width: 720px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+figcaption {
+	padding: 5px 5px;
+	text-align: left;
+}
+
+.col-1-of-3 {
+	background-color: #e7e3d8;
+	border: 1px solid gray;	
+	width: 200px;
+	float: left;
+	margin: 10px;
+}
+
+img.medium {
+	width: 200px;
+	height: 150px;
+}
+
+img {
+}
