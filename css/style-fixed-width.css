@@ -1,0 +1,38 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	width: 960px;
+	margin: auto;
+}
+
+#content {
+	overflow: auto;
+	height: 100%;
+}
+
+#header {
+	text-align: center;
+}
+
+#nav, #feature, #footer {
+	background-color: lightgray;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+#nav ul li {
+	list-style: none;
+	display: inline;
+	padding: 5px;
+}
+
+.column-1, .column-2, .column-3 {
+	width: 300px;
+	background-color: lightgray;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+.article {
+	height: 100px;
