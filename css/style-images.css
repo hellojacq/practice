@@ -20,17 +20,28 @@ p {
 	margin-top: 30px;
 }
 
+figure {
+	padding: 10px;
+	background-image: url(../images/gallery/shadow.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
 figcaption {
-	padding: 5px 5px;
+	padding: 5px 20px;
 	text-align: left;
+	background-image: url(../images/gallery/icon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
 }
 
 .col-1-of-3 {
 	background-color: #e7e3d8;
-	border: 1px solid gray;	
-	width: 200px;
+	width: 220px;
+	height: 193px;
 	float: left;
-	margin: 10px;
+	margin: 5px;
+	margin-bottom: 20px;
 }
 
 img.medium {
