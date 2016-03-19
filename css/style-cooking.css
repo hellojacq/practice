@@ -112,6 +112,11 @@ aside ul li a {
 	color: #DE6588;
 }
 
-aside .recipes .contact {
-	padding-left: 20px;
+aside {
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+aside .contact {
+	margin-top: 30px;
 }
