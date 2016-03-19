@@ -13,6 +13,7 @@ body {
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	overflow: auto;
 }
 
 header, footer {
@@ -42,11 +43,8 @@ nav ul li a:hover {
 }
 
 section {
-
 }
 
-hgroup {
-}
 
 figure {
 	border: 1px lightgray solid;
@@ -55,6 +53,12 @@ figure {
 	padding-top: 5px;
 	margin-left: 20px;
 	margin-top: 20px;
+	float: left;
+}
+
+article {
+	overflow: auto;
+	border-right: 1px #EFEFEF solid;
 }
 
 figcaption {
@@ -64,4 +68,50 @@ figcaption {
 
 footer {
 	padding: 10px;
+}
+
+hgroup h2 {
+	color: #666666;
+}
+
+hgroup h3 {
+	color: #DE6588;
+}
+
+aside { 
+	float: right;
+}
+
+aside h2 {
+	color: #DE6588;
+}
+
+aside ul {
+	padding-right: 20px;
+}
+
+aside ul li {
+	list-style: none;
+	line-height: 2;
+	display: block;
+	padding: 5px 5px;
+	border-bottom: 1px #EFEFEF solid;
+}
+
+aside ul li:hover {
+	list-style: none;
+	line-height: 2;
+	display: block;
+	padding: 5px 5px;
+	background-color: #EFEFEF;
+}
+
+
+aside ul li a {
+	text-decoration: none;
+	color: #DE6588;
+}
+
+aside .recipes .contact {
+	padding-left: 20px;
 }
