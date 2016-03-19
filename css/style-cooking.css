@@ -14,6 +14,9 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	overflow: auto;
+	font-family: Georgia, Times, serif;
+	color: gray;
+	border: 2px black solid;
 }
 
 header, footer {
@@ -60,6 +63,14 @@ figure {
 article {
 	overflow: auto;
 	border-right: 1px #EFEFEF solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+article p {
+	padding-top: 20px;
+	padding-right: 20px;
+	line-height: 1.5;
 }
 
 figcaption {
@@ -74,14 +85,17 @@ footer {
 
 hgroup h2 {
 	color: #666666;
+	font-weight: normal;
 }
 
 hgroup h3 {
 	color: #DE6588;
+	font-weight: normal;
+	padding-top: 5px;
 }
 
 hgroup {
-	padding-top: 30px;
+	padding-top: 20px;
 	margin-left: 340px;
 }
 
@@ -95,13 +109,15 @@ aside h2 {
 
 aside ul {
 	padding-right: 20px;
+	padding-top: 20px;
+	max-width: 225px;
 }
 
 aside ul li {
 	list-style: none;
 	line-height: 2;
 	display: block;
-	padding: 5px 5px;
+	padding: 5px;
 	border-bottom: 1px #EFEFEF solid;
 }
 
@@ -124,6 +140,23 @@ aside {
 	padding-top: 30px;
 }
 
+aside section h2 {
+	font-weight: normal;
+}
+
 aside .contact {
 	margin-top: 30px;
+}
+
+aside .contact p{
+	padding: 10px;
+	line-height: 1.5;
+}
+
+aside .address {
+	padding-top: 20px;
+}
+
+footer {
+	font-size: 80%;
 }
