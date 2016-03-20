@@ -13,6 +13,16 @@ body {
 }
 
 h1 {
-	padding-top: 250px;
+	padding-top: 200px;
 	font-size: 5em;
+}
+
+input {
+	margin: 20px;
+	height: 50px;
+	width: 500px;
+}
+
+.button {
+	background-color: green;
 }
