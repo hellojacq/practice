@@ -39,6 +39,14 @@ header nav ul li a {
 	margin: 100px;
 }
 
+#welcome h2 {
+	margin: 20px;
+}
+
+#welcome .button {
+	margin: 30px;
+}
+
 h1 {
 	font-size: 5em;
 }
@@ -81,4 +89,18 @@ h1 {
 .center h2 {
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.button {
+	background-color: #4DA1A9;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 50px;
+}
+
+#testimonals {
+	background-color: #4DA1A9;
+	height: 200px;
 }
