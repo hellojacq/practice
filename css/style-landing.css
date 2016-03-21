@@ -36,7 +36,7 @@ header nav ul li a {
 #welcome {
 	text-align: center;
 	color: white;
-	margin: 50px;
+	margin: 100px;
 }
 
 h1 {
@@ -56,10 +56,29 @@ h1 {
 	background-color: #FDFFFC;
 	width: 100%;
 	z-index: 10;
+	display: inline;
 }
 
-.col1of3 {
-	width: 33.33%;
+.col1of4 {
+	width: 25%;
 	float: left;
+}
+
+.col1of4 p {
 	margin: 10px;
+	line-height: 1.5;
+}
+
+.icon img {
+	width: 100px;
+	opacity: 0.5;
+}
+
+.center {
+	text-align: center;
+}
+
+.center h2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
