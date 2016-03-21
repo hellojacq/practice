@@ -15,12 +15,15 @@ body {
 header {
 	background-color: #212121;
 	text-align: right;
+}
 
+header nav {
+	padding: 20px;
 }
 
 header nav ul li {
 	display: inline;
-	padding: 20px;
+	padding-left: 10px;
 }
 
 header nav ul li a {
