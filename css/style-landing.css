@@ -4,5 +4,46 @@
 }
 
 html {
-	background: url(images/landing/yosemite.png) no-repeat center center fixed;
+	background: url(../images/landing/yosemite.png) no-repeat center center fixed;
+}
+
+body {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-color: #212121;
+	text-align: right;
+
+}
+
+header nav ul li {
+	display: inline;
+	padding: 20px;
+}
+
+header nav ul li a {
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}
+
+#welcome {
+	text-align: center;
+	color: white;
+	margin: 50px;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+.container {
+	position: absolute;
+	top: 500px;
+	background-color: whitesmoke;
+	height: 300px;
+	width: 100%;
+	z-index: 10;
 }
