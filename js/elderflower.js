@@ -13,7 +13,7 @@ el.textContent = welcomeMessage;
 var customSign = 'Montague House'; //Sign is Montague House
 var quantity = customSign.length; // Quantity is 14
 var pricePerTile = 5; // Price per Tile is 5
-var subtotal = pricePerTile * totalTiles; //Subtotal is 5 * 14
+var subtotal = pricePerTile * quantity; //Subtotal is 5 * 14
 var shipping = 7; //Shipping is $7
 var grandTotal = subtotal + shipping; //Grand Total is $70 + $7
 
