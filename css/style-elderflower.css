@@ -1,9 +1,57 @@
-* {
-	margin: 0;
-	padding: 0;
-	border: 1px red solid;
-}
-
 body {
 	background-image: url(../images/elderflower/hobart.jpg);
+	font-family: helvetica, arial, sans-serif;
+}
+
+h3 {
+	color: #212121;
+}
+
+#logo {
+	text-align: center;
+	margin: 20px;
+}
+
+#greeting {
+	margin: 20px;
+}
+
+#content {
+	width: 500px;
+	text-align: center;
+	margin: 50px auto 50px auto;
+	background-color: white;
+	border: 1px solid black;
+	border-style: double;
+	overflow: auto;
+}
+
+#content table {
+	margin: 20px auto 20px auto;
+	text-align: left;
+	line-height: 1.5;
+}
+
+#content table td {
+	padding-left: 20px;
+}
+
+#submit {
+	padding: 10px 20px 10px 20px;
+	background-color: #F84C53;
+	border: none;
+	font-size: 1em;
+	color: white;
+	margin: 10px;
+	float: right;
+}
+
+#submit:hover {
+	padding: 10px 20px 10px 20px;
+	background-color: #C63B40;
+	border: none;
+	font-size: 1em;
+	color: white;
+	margin: 10px;
+	float: right;
 }
