@@ -1,0 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 1px red solid;
+}
+
+body {
+	background-image: url(../images/elderflower/hobart.jpg);
+}
