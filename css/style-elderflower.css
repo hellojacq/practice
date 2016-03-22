@@ -19,17 +19,16 @@ h3 {
 #content {
 	width: 500px;
 	text-align: center;
-	margin: 50px auto 50px auto;
+	margin: 30px auto 30px auto;
 	background-color: white;
-	border: 1px solid black;
-	border-style: double;
+	border: 4px double black;
 	overflow: auto;
 }
 
 #content table {
 	margin: 20px auto 20px auto;
 	text-align: left;
-	line-height: 1.5;
+	line-height: 1.25;
 }
 
 #content table td {
