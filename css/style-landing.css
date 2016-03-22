@@ -37,6 +37,7 @@ header nav ul li a {
 	text-align: center;
 	color: white;
 	margin: 100px;
+	
 }
 
 #welcome h2 {
@@ -93,6 +94,15 @@ h1 {
 
 .button {
 	background-color: #4DA1A9;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 50px;
+}
+
+.button:hover {
+	background-color: #469299;
 	color: white;
 	text-decoration: none;
 	text-align: center;
