@@ -16,10 +16,10 @@ header {
 	background-color: #FDFFFC;
 	text-align: right;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	overflow: auto;
 }
 
 header nav {
-	padding: 20px;
 }
 
 header nav ul li {
@@ -31,6 +31,22 @@ header nav ul li a {
 	color: #212121;
 	list-style: none;
 	text-decoration: none;
+}
+
+#logo {
+	background-image: url(../images/landing/logo.png);
+	background-repeat: none;
+	display: inline-block;
+	width: 150px;
+	height: 36px;
+	overflow: hidden;
+	float: left;
+	margin: 10px;
+	text-indent: 100%;
+}
+
+#logo:hover {
+	background-position: 0px -36px;
 }
 
 #welcome {
