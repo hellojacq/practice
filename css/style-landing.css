@@ -19,18 +19,20 @@ header {
 	overflow: auto;
 }
 
-header nav {
+header nav ul{
 }
 
 header nav ul li {
-	display: inline;
-	padding-left: 10px;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	margin-top: 15px;
 }
 
 header nav ul li a {
 	color: #212121;
 	list-style: none;
 	text-decoration: none;
+	padding-top: 20px;
 }
 
 #logo {
@@ -85,12 +87,13 @@ h1 {
 }
 
 .col1of4 {
-	width: 25%;
+	width: 22%;
 	float: left;
+	margin: 10px;
 }
 
 .col1of4 p {
-	margin: 10px;
+	margin: 5px;
 	line-height: 1.5;
 }
 
