@@ -57,7 +57,6 @@ header nav ul li a {
 #welcome {
 	text-align: center;
 	color: white;
-	width: 960px;
   margin: auto;
 }
 
@@ -70,12 +69,11 @@ header nav ul li a {
 }
 
 #welcome h1 {
-	font-size: 5em;
+	font-size: 3em;
   margin-top: 50px;
 }
 
 .section {
-	width: 960px;
 	margin: auto;
 }
 
@@ -92,7 +90,7 @@ header nav ul li a {
 
 .container {
 	position: absolute;
-	top: 450px;
+	top: 400px;
 	background-color: #FDFFFC;
 	width: 100%;
 }
@@ -103,8 +101,10 @@ header nav ul li a {
 }
 
 .col1of4 {
-	width: 25%;
+	width: 50%;
 	float: left;
+  overflow: auto;
+  padding: 10px 0px;
 }
 
 .col1of4 p {
@@ -112,9 +112,10 @@ header nav ul li a {
 	line-height: 1.5;
 }
 
-.icon img {
-	width: 100px;
-	opacity: 0.5;
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: auto;
 }
 
 .center {
@@ -147,4 +148,28 @@ header nav ul li a {
 #testimonals {
 	background-color: #4DA1A9;
 	height: 200px;
+}
+
+@media (min-width: 480px) {
+  #welcome h1 {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 750px) {
+  .section {
+    width: 100%;
+  }
+  .col1of4 {
+    width: 25%;
+  }
+}
+
+@media (min-width: 960px) {
+  .section {
+    width: 960px;
+  }
+  .col1of4 {
+    width: 25%;
+  }
 }
