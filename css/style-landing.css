@@ -17,22 +17,26 @@ header {
 	text-align: right;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 	overflow: auto;
+  width: 100%;
+  padding: 20px 0px;
 }
 
-header nav ul{
+header nav {
+  width: 960px;
+  margin: auto;
 }
 
 header nav ul li {
 	display: inline-block;
-	padding: 0 10px 0 10px;
-	margin-top: 15px;
+  padding-top: 10px;
 }
 
 header nav ul li a {
 	color: #212121;
 	list-style: none;
 	text-decoration: none;
-	padding-top: 20px;
+  padding-left: 20px;
+  font-size: 1em;
 }
 
 #logo {
@@ -43,7 +47,6 @@ header nav ul li a {
 	height: 36px;
 	overflow: hidden;
 	float: left;
-	margin: 10px;
 	text-indent: 100%;
 }
 
@@ -54,8 +57,8 @@ header nav ul li a {
 #welcome {
 	text-align: center;
 	color: white;
-	margin: 100px;
-	
+	width: 960px;
+  margin: auto;
 }
 
 #welcome h2 {
@@ -68,18 +71,23 @@ header nav ul li a {
 
 #welcome h1 {
 	font-size: 5em;
+  margin-top: 50px;
 }
 
 .section {
-	padding-top: 2em;
-	padding-bottom: 2em;
 	width: 960px;
 	margin: auto;
 }
 
 .section h1 {
 	text-align: center;
-	margin-bottom: 1em;
+  padding: 30px;
+}
+
+.divider {
+  width: 200px;
+  margin: auto;
+  border: 1px solid #4DA1A9;
 }
 
 .container {
@@ -87,14 +95,16 @@ header nav ul li a {
 	top: 450px;
 	background-color: #FDFFFC;
 	width: 100%;
-	z-index: 10;
-	display: inline;
+}
+
+.grid-container {
+  padding: 50px 0px;
+  overflow: auto;
 }
 
 .col1of4 {
-	width: 22%;
+	width: 25%;
 	float: left;
-	margin: 10px;
 }
 
 .col1of4 p {
