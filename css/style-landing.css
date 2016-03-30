@@ -152,6 +152,16 @@ header nav ul#top-nav.responsive li a {
   font-size: 1em;
 }
 
+.col1of3 {
+  width: 33.33%;
+  float: left;
+  overflow: auto;
+}
+
+.portfolio-img {
+  max-height: 200px;
+}
+
 .icon {
   width: 100px;
   height: 100px;
@@ -183,11 +193,6 @@ header nav ul#top-nav.responsive li a {
 	text-align: center;
 	display: inline-block;
 	padding: 15px 50px;
-}
-
-#testimonals {
-	background-color: #4DA1A9;
-	height: 200px;
 }
 
 @media (min-width: 480px) {
