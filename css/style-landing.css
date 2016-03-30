@@ -8,7 +8,6 @@ html {
 }
 
 body {
-	position: relative;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -90,25 +89,22 @@ header nav ul#top-nav.responsive li a {
 }
 
 #welcome h2 {
-	margin: 10px;
 }
 
 #welcome .button {
-	margin: 30px;
+	margin: 20px;
 }
 
 #welcome h1 {
 	font-size: 3em;
-  margin-top: 50px;
 }
 
 .section {
-	margin: auto;
+	margin: 50px auto;
 }
 
 .section h1 {
 	text-align: center;
-  padding: 30px;
 }
 
 .divider {
@@ -117,15 +113,13 @@ header nav ul#top-nav.responsive li a {
   border: 1px solid #4DA1A9;
 }
 
-.container {
-	position: absolute;
-	top: 400px;
+#skills {
 	background-color: #FDFFFC;
 	width: 100%;
 }
 
 .grid-container {
-  padding: 50px 0px;
+  padding: 30px 0px;
   overflow: auto;
 }
 
@@ -187,6 +181,13 @@ header nav ul#top-nav.responsive li a {
 }
 
 @media (min-width: 750px) {
+  header nav ul#top-nav li:not(:first-child) {
+    display: inline;
+    float: right;
+  }
+  header nav ul#top-nav li:first-child {
+    display: none;
+  }
   .section {
     width: 100%;
   }
@@ -196,6 +197,9 @@ header nav ul#top-nav.responsive li a {
 }
 
 @media (min-width: 960px) {
+  nav {
+    width: 960px;
+  }
   .section {
     width: 960px;
   }
