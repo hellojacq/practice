@@ -158,6 +158,10 @@ header nav ul#top-nav.responsive li a {
   overflow: auto;
 }
 
+.col1of3:hover {
+  border-bottom: 2px solid #4DA1A9;
+}
+
 .portfolio-img {
   max-height: 200px;
 }
