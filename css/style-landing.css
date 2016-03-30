@@ -14,7 +14,6 @@ body {
 
 header {
 	background-color: #FDFFFC;
-	text-align: right;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 	overflow: auto;
   width: 100%;
@@ -22,36 +21,62 @@ header {
 }
 
 header nav {
-  width: 960px;
+  width: 100%;
   margin: auto;
 }
 
-header nav ul li {
-	display: inline-block;
+header nav ul#top-nav li {
   padding-top: 10px;
+  transition: 0.3s;
 }
 
-header nav ul li a {
+header nav ul#top-nav li a {
 	color: #212121;
 	list-style: none;
 	text-decoration: none;
-  padding: 0px 10px;
+  padding: 10px 10px;
   font-size: 1em;
+  text-transform: uppercase;
 }
 
-header nav ul li a:hover {
+header nav ul#top-nav li:not(:first-child) {
+  display: none;
+}
+
+header nav ul#top-nav li a:hover {
   color: #4DA1A9;
+}
+
+header li.nav-icon {
+  display: inline-block;
+  float: right;
+}
+
+header nav ul#top-nav.responsive {
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+header nav ul#top-nav.responsive li {
+  float: none;
+  display: inline;
+}
+
+header nav ul#top-nav.responsive li a {
+  display: block;
+  text-align: right;
 }
 
 #logo {
 	background-image: url(../images/landing/logo.png);
 	background-repeat: none;
-	display: inline-block;
 	width: 150px;
 	height: 36px;
 	overflow: hidden;
 	float: left;
 	text-indent: 100%;
+  margin-left: 10px;
 }
 
 #logo:hover {
@@ -114,6 +139,7 @@ header nav ul li a:hover {
 .col1of4 p {
 	margin: 5px;
 	line-height: 1.5;
+  font-size: 0.5em;
 }
 
 .icon {
