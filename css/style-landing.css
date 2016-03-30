@@ -24,8 +24,12 @@ header nav {
   margin: auto;
 }
 
-header nav ul#top-nav li {
+header nav ul#top-nav {
+  float: right;
   padding-top: 10px;
+}
+
+header nav ul#top-nav li {
   transition: 0.3s;
 }
 
@@ -183,7 +187,6 @@ header nav ul#top-nav.responsive li a {
 @media (min-width: 750px) {
   header nav ul#top-nav li:not(:first-child) {
     display: inline;
-    float: right;
   }
   header nav ul#top-nav li:first-child {
     display: none;
@@ -197,7 +200,7 @@ header nav ul#top-nav.responsive li a {
 }
 
 @media (min-width: 960px) {
-  nav {
+  header nav {
     width: 960px;
   }
   .section {
