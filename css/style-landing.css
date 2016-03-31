@@ -218,6 +218,27 @@ header nav ul#top-nav.responsive li a {
   margin: 5px;
 }
 
+form { 
+  max-width:420px; 
+  margin:50px auto; }
+
+.contact-form {
+  color: white;
+  background-color: transparent;
+  border: 2px solid #4DA1A9;
+  transition: all 0.3s;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 1em;
+  line-height: 20px;
+  outline: 0;
+}
+
+.contact-form:focus {
+  border: 2px solid #469299;
+}
+
 footer {
   color: white;
   padding: 20px;
