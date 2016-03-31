@@ -202,22 +202,23 @@ header nav ul#top-nav.responsive li a {
 
 .social {
   height:2em; 
-  padding: 1em;
+  padding: 0.5em;
   opacity: 0.5;
 }
 
 .social:hover {
-  height:2em; 
-  padding: 1em;
   opacity: 1;
 }
 
-#social-icons a {
-  margin: 10px;
+#social-icons {
+  margin: 20px;
 }
 
-#footer {
-  background-color: #002642;
+#social-icons a {
+  margin: 5px;
+}
+
+footer {
   color: white;
   padding: 20px;
 }
