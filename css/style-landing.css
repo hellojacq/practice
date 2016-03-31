@@ -158,9 +158,6 @@ header nav ul#top-nav.responsive li a {
   overflow: auto;
 }
 
-.col1of3:hover {
-}
-
 .portfolio-container {
   margin: 10px;
   background-color: white;
@@ -203,9 +200,26 @@ header nav ul#top-nav.responsive li a {
 	padding: 15px 50px;
 }
 
+.social {
+  height:2em; 
+  padding: 1em;
+  opacity: 0.5;
+}
+
+.social:hover {
+  height:2em; 
+  padding: 1em;
+  opacity: 1;
+}
+
+#social-icons a {
+  margin: 10px;
+}
+
 #footer {
   background-color: #002642;
   color: white;
+  padding: 20px;
 }
 
 @media (min-width: 480px) {
