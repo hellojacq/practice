@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-html {
+body {
+  background-color: #4DA1A9;
   font-family: helvetica, arial, sans-serif;
 }
 
