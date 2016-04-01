@@ -6,10 +6,17 @@
 body {
   background-color: #4DA1A9;
   font-family: helvetica, arial, sans-serif;
+  color: white;
+}
+
+#content {
+  display: flex;
 }
 
 h1 {
-  text-align: center;
-  padding-top: 3em;
   font-size: 5em;
+}
+
+h2 {
+  font-weight: lighter;
 }
