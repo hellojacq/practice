@@ -5,7 +5,7 @@
 
 html {
   background: url(../images/hotel/background.jpg) no-repeat center center fixed;
-  width: 100%;
+  background-size: cover;
 }
 
 body {
