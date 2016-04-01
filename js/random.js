@@ -10,4 +10,5 @@ var color = 'rgb(' + r +',' + g + ',' + b + ')';
 
 document.body.style.backgroundColor = color;
 document.getElementById('color-value').textContent = color;
+document.body.style.color = color;
 
