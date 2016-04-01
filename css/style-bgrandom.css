@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 5em;
+}
