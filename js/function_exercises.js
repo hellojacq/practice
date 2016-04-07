@@ -18,7 +18,7 @@ function isEven(x) {
     return false;
   }  
 }
-*/
+
 
 function isEven(x) {
   if (x === 0) {
@@ -38,8 +38,6 @@ console.log(isEven(50));
 console.log(isEven(-100));
 console.log(isEven(-1));
 
-
-/*
 function layer(n) {
   console.log("Entering layer", n);
   if (n > 0) {
@@ -51,3 +49,16 @@ function layer(n) {
 layer(10)
 
 */
+
+function countChar(string, letter) {
+  var counter=0;
+  for (var i=0; i <= string.length-1; i++) {
+    if(string.charAt(i) === letter) {
+      counter++;  
+    }
+  }  
+  return counter;
+}
+
+console.log(countChar("BBC", "B"));
+console.log(countChar("kakkerlak", "k"));
