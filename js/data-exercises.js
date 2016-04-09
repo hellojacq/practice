@@ -8,5 +8,12 @@ function range(start,end) {
   return rangeArray;
 }
 
-console.log(range(1,10));
+function sum(array) {
+  var sumOfRange=0;
+  for (var i=0; i < array.length; i++) {
+    sumOfRange = sumOfRange + array[i] ;
+  }
+  return sumOfRange;
+}
 
+console.log(sum(range(1,10)));
