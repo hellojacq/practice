@@ -1,8 +1,8 @@
 //sum of a range
 
-function range(start,end) {
+function range(start,end,step) {
   var rangeArray= [];
-  for (var i=start; i<=end; i++) {
+  for (var i=start; (step>0)?(i<=end):(i>=end); i = i+step ) {
     rangeArray.push(i); 
   }    
   return rangeArray;
@@ -16,4 +16,4 @@ function sum(array) {
   return sumOfRange;
 }
 
-console.log(sum(range(1,10)));
+console.log(sum(range(5,2,-1)));
