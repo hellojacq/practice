@@ -42,6 +42,13 @@ body {
   right: 25px;
 }
 
+#output {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 50px;
+}
+
 footer {
   height: 30px;
   background-color: #523620;
